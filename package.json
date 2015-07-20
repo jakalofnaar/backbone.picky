@@ -1,7 +1,11 @@
 {
   "name": "backbone.picky",
   "version": "0.2.0",
-  "dependencies": {},
+  "main": "lib/amd/backbone.picky.js",
+  "dependencies": {
+    "backbone": "~1.2.0",
+    "underscore": "~1.8.0"
+  },
   "devDependencies": {
     "matchdep": "~0.1.2",
     "grunt": "~0.4.1",
